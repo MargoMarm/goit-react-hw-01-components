@@ -8,7 +8,7 @@ export const ProfileContainer = styled.div`
   border-radius: 10px;
   width: 350px;
   box-shadow: 0px 5px 14px -2px rgba(0, 0, 0, 0.99);
-  margin: 20px auto;
+  margin: 20px auto 60px;
   padding: 15px 0px 0px;
 `;
 
@@ -28,6 +28,7 @@ export const ProfileImg = styled.img`
 `;
 
 export const UserName = styled.p`
+  font-family: 'Segoe UI';
   font-size: 22px;
   line-height: 1.62;
   font-weight: bold;
@@ -37,13 +38,15 @@ export const UserName = styled.p`
 `;
 
 export const UserInfo = styled.p`
+  font-family: 'Segoe UI';
   margin-top: 0px;
   margin-bottom: 10px;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.58;
 `;
 
 export const StatsList = styled.ul`
+  font-family: 'Segoe UI';
   list-style: none;
   background-color: #b4d4d6;
   width: 100%;
